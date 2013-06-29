@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "jquery.uls",
   "version": "0.1.0",
   "description": "Universal Language Selector",
@@ -7,10 +8,21 @@
     "internationalization",
     "localization",
     "uls",
+=======
+  "name": "jquery.ime",
+  "version": "0.1.0",
+  "description": "jQuery based internationalization library",
+  "homepage": "https://github.com/wikimedia/jquery.ime",
+  "keywords": [
+    "internationalization",
+    "localization",
+    "ime",
+>>>>>>> upstream/master
     "jquery",
     "l10n"
   ],
   "author": {
+<<<<<<< HEAD
      "name": "Santhosh Thottingal",
      "email": "santhosh.thottingal@gmail.com"
   },
@@ -40,12 +52,42 @@
   "bugs": {
     "url" : "http://github.com/wikimedia/jquery.uls/issues"
   },
+=======
+    "name": "Santhosh Thottingal",
+    "email": "santhosh.thottingal@gmail.com"
+  },
+  "contributors": [
+    "Amir Aharoni <amir.aharoni@mail.huji.ac.il>",
+    "Pau Giner <pginer@wikimedia.org>",
+    "Niklas Laxstrom nlaxstrom@wikimedia.org",
+    "Srikanth Lakshmanan <srik.lak@gmail.com>"
+  ],
+  "dependencies": {
+    "jshint": "~1.0.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-copy": "~0.4.0",
+    "grunt-contrib-cssmin": "~0.4.0",
+    "grunt-contrib-qunit": "~0.2.0",
+    "grunt-contrib-concat": "~0.1.3",
+    "grunt-contrib-uglify": "~0.1.2",
+    "grunt": "~0.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wikimedia/jquery.ime.git"
+  },
+  "bugs": {
+    "url" : "http://github.com/wikimedia/jquery.ime/issues"
+    },
+>>>>>>> upstream/master
   "engine": {
     "node": ">=0.6.x"
   },
   "licenses": [
     {
       "type": "GPL",
+<<<<<<< HEAD
       "url": "https://github.com/wikimedia/jquery.uls/blob/master/GPL-LICENSE"
     },
     {
@@ -55,5 +97,16 @@
   ],
  "scripts": {
   "test": "grunt test --verbose"
+=======
+      "url": "https://github.com/wikimedia/jquery.ime/blob/master/GPL-LICENSE"
+    },
+    {
+      "type": "MIT",
+      "url": "https://github.com/wikimedia/jquery.ime/blob/master/MIT-LICENSE"
+    }
+  ],
+  "scripts": {
+     "test": "grunt test --verbose"
+>>>>>>> upstream/master
   }
 }

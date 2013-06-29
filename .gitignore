@@ -2,6 +2,7 @@
 .*.swp
 *.kate-swp
 *.bak
+<<<<<<< HEAD
 /node_modules
 /dist
 data/supplementalData.xml
@@ -9,3 +10,6 @@ data/supplementalData.xml
 css/.DS_Store
 
 src/.DS_Store
+=======
+/nbproject/private/
+>>>>>>> upstream/master
